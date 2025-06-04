@@ -1,0 +1,21 @@
+{
+  "name": "mcp-claude-integration-test",
+  "version": "1.0.0",
+  "description": "Testing MCP tools integration with Claude API",
+  "main": "index.js",
+  "scripts": {
+    "test:mcp": "ts-node index.ts",
+    "test:single": "ts-node -e \"import('./index').then(m => m.testSingleQuery('東京の天気を教えて'))\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
