@@ -94,4 +94,3 @@ MIT License
 - [Anthropic Claude API Documentation](https://docs.anthropic.com)
 - [Model Context Protocol Specification](https://modelcontextprotocol.io)
 - [Claude Tools API Beta Documentation](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-# claude-mcp-mock
